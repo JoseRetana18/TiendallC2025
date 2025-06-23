@@ -17,7 +17,7 @@ public class Categoria implements Serializable {
     private Long idCategoria;
     private String descripcion;
     @Column(name="ruta_imagen")
-    private String rutImagen;
+    private String rutaImagen;
     private boolean activo;
 
     public Categoria() {
